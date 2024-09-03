@@ -1,0 +1,243 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #ff6f61;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: #333;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #333;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.projects .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.projects .project p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.projects .project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.projects .project a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #c3cfe2 0%, #cfd9df 100%);
+    text-align: center;
+    color: #333;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact form button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+
+/* Footer Section */
+.footer {
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ff9a9e;
+}
+
+.footer-content p {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.footer .socials {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .socials li {
+    margin: 0 10px;
+}
+
+.footer .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer .socials li a:hover {
+    color: #ff9a9e;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #ccc;
+    font-size: 0.9rem;
+}
